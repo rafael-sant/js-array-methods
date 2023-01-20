@@ -1,4 +1,5 @@
 function exibirOsLivrosNaTela(listaDeLivros) {
+  elementoParaInserirLivros.innerHTML = "";
   listaDeLivros.forEach((livro) => {
     elementoParaInserirLivros.innerHTML += ` 
     <div class="livro">
@@ -10,7 +11,6 @@ function exibirOsLivrosNaTela(listaDeLivros) {
     <p class="livro__preco" id="preco">R$${livro.preco.toFixed(2)}</p>
     <div class="tags">
       <span class="tag">${livro.categoria}</span>
-      <span class="tag">Back-end</span>
     </div>
   </div>`;
   });
