@@ -3,6 +3,5 @@ function aplicarDesconto(livros) {
   livrosComDesconto = livros.map((livro) => {
     return { ...livro, preco: livro.preco - livro.preco * desconto };
   });
-  console.log(livrosComDesconto);
   return livrosComDesconto;
 }
