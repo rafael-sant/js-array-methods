@@ -20,11 +20,3 @@ function exibirOsLivrosNaTela(listaDeLivros) {
   </div>`;
   });
 }
-
-// function verificarDisponibilidadeDoLivro(livro) {
-//   if (livro.quantidade > 0) {
-//     return "livro_imagens";
-//   } else {
-//     return "livro_imagens indisponivel";
-//   }
-// }
